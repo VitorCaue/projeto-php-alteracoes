@@ -2,8 +2,8 @@
 include_once("templates/header_auth.php");
 
 
-$username = $password = $confirm_password = "";
-$username_err = $password_err = $confirm_password_err = "";
+$username  = $password = $confirm_password = "";
+$username_err  = $password_err = $confirm_password_err = "";
  
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
@@ -110,10 +110,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             <input type="text" class="form-control <?php echo (!empty($username_err)) ? 'is-invalid' : ''; ?>" id="name" name="username" value="<?php echo $username; ?>" placeholder="Digite seu nome">
                             <span class="invalid-feedback"><?php echo $username_err; ?></span>
                         </div>
-                        <!-- <div class="form-group">
-                            <label for="lastname">Sobrenome:</label>
-                            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Digite seu sobrenome">
-                        </div> -->
                         <div class="form-group">
                             <label for="password">Senha:</label>
                             <input type="password" class="form-control <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>" id="password" name="password" value="<?php echo $password; ?>" placeholder="Digite sua senha">

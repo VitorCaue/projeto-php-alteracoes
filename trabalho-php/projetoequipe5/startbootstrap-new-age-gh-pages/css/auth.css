@@ -6,7 +6,7 @@
   #logo {
     width: 50px;
   }
-
+  
   a{
     text-decoration: none;
   }
@@ -142,7 +142,6 @@
   .rating {
     color: #CCC;
   }
-  
   .rate-btn {
     margin-bottom: 15px;
     color: #5799EF;

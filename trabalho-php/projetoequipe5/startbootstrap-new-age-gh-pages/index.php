@@ -19,7 +19,7 @@
                             <Form method="POST" action="cadastro.php">
                             <div class="mb-3">
                                 <h2>Infome seu email para receber atualizações!</h2>
-                                <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu email">
+                                <input name="emai" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu email">
                             </div>
                             <button type="submit" class="btn btn-primary">Enviar</button>
                             </form>

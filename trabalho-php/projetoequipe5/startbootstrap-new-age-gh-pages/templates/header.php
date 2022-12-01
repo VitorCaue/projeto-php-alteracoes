@@ -46,6 +46,13 @@ require_once("config/connections.php");
                         </span>
                         
                     </button>
+                    <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" id="button-hover">
+                        <span class="d-flex align-items-center">
+                            <i class="bi-chat-text-fill me-2"></i>
+                            <a href="lista.php" class="arquivo">Lista</a>
+                        </span>
+                        
+                    </button>
                 </div>
             </div>
         </nav>

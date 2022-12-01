@@ -32,6 +32,5 @@ include_once("templates/header_auth.php");
 <?php
 
 include_once("templates/footer.php");
-
 ?>
     
